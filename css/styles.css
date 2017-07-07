@@ -1,0 +1,40 @@
+body {
+  background-color: yellow;
+}
+
+header {
+  background-color: blue;
+  height: 150px;
+}
+
+nav {
+  background-color: green;
+  height: 60px;
+}
+
+main {
+  background-color: red;
+  height: 225px;
+}
+
+aside {
+  background-color: lightblue;
+  height: 225px;
+}
+
+.green {
+  background-color: white;
+  height: 250px;
+}
+
+.red {
+  background-color: grey;
+  height: 250px;
+}
+
+  /*Media Queries*/
+  @media only screen and (max-width: 800px) {
+    .red {
+      background-color: blue;
+    }
+  }
